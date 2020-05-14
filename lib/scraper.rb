@@ -11,3 +11,5 @@ courses = doc.css(".gridContainer-EnvccM .inlineMobileLeft-2Yo002.imageTextBlock
 courses.each do |course|
   puts course.text.strip
 end
+
+p doc.css(".gridContainer-EnvccM .inlineMobileLeft-2Yo002.imageTextBlockGrid2-3jXtmC")[0]
