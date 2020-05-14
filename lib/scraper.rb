@@ -12,4 +12,4 @@ courses.each do |course|
   puts course.text.strip
 end
 
-p doc.css(".gridContainer-EnvccM .inlineMobileLeft-2Yo002.imageTextBlockGrid2-3jXtmC")[0].name => "div"
+p doc.css(".gridContainer-EnvccM .inlineMobileLeft-2Yo002.imageTextBlockGrid2-3jXtmC")[0].name
